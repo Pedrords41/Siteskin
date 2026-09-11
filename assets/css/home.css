@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 100%;
+    height: 100vh;
+}
+header{
+    width: 100%;
+    height: 20vh;
+    background: #000;
+}
+section{
+    width: 100%;
+    height: 35vh;
+    float: left;
+    padding: 1%;
+}
+#cs2{
+    background: #1544de
+}
+#valorant{
+    background: #F74352
+}
+.skin{
+    width: 18%;
+    height: 30vh;
+    background: #fff;
+    margin-left: 1.6%;
+    margin-top: 0.5vh;
+    float: left;
+    border-radius: 12px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+img{
+    width: 90%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+footer{
+    width: 100%;
+    height: 10vh;
+    background: #42d0ff;
+    float: left;
+}
