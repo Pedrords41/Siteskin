@@ -10,7 +10,31 @@ main{
 header{
     width: 100%;
     height: 20vh;
-    background: #000;
+    background: #000000;
+    
+}
+header img{
+    width: 150px;
+    height: 100px;
+}
+.menu {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu span {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+header h1{
+    font-size: 45px;
+    font-weight: 800; 
+    color: #ff1744;
+    margin-left: 30%;
 }
 section{
     width: 100%;
@@ -18,11 +42,12 @@ section{
     float: left;
     padding: 1%;
 }
+
 #cs2{
-    background: #1544de
+    background: linear-gradient(to right, #f8d300, #001aff);
 }
 #valorant{
-    background: #F74352
+    background: linear-gradient(to right, #ff0c0c, #161516);
 }
 .skin{
     width: 18%;
@@ -37,15 +62,16 @@ section{
     align-items: center;
     flex-direction: column;
 }
+
 img{
     width: 90%;
     justify-content: center;
     display: flex;
     align-items: center;
 }
-footer{
-    width: 100%;
-    height: 10vh;
-    background: #42d0ff;
-    float: left;
+footer img{
+    width: 120px;
+    height: auto;
 }
+
+
